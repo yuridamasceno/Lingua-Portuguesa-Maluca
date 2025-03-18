@@ -1,0 +1,50 @@
+/* Reset básico para remover estilos padrão dos navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Remover decoração de links */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Reset de listas */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Reset de elementos de formulário */
+  button, input, textarea, select {
+    font: inherit;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  
+  /* Garantir que imagens não ultrapassem seus containers */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Reset de tabelas */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  /* Correção para elementos de mídia */
+  video, audio {
+    display: block;
+    width: 100%;
+  }
+  
+  /* Normalizar botões */
+  button {
+    cursor: pointer;
+  }
+  

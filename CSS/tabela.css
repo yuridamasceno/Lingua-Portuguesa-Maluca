@@ -1,0 +1,24 @@
+table {
+    width: 50%;
+    border-collapse: collapse;
+    text-align: center;
+}
+th, td {
+    border: 1px solid gray;
+    padding: 10px;
+}
+th {
+    background-color: #cca165;
+    color: white;
+}
+.categoria {
+    background-color: #cca165;
+    color: white;
+    font-weight: bold;
+}
+.subcategoria {
+    background-color: #d6c0a0;
+}
+.celula {
+    background-color: #d6c0a0;
+}
